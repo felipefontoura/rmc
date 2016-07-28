@@ -14,13 +14,15 @@ $ grunt
 
 ## Using
 
+Copy and paste:
+
 ```html
 <script type="text/javascript">
 (function() {
-  var mf = document.createElement("script");
-  mf.type = "text/javascript"; mf.async = true;
-  mf.src = "//yourserver/path/rmc.min.js";
-  document.getElementsByTagName("head")[0].appendChild(mf);
+  var r = document.createElement("script");
+  r.type = "text/javascript"; r.async = true;
+  r.src = "//yourserver/path/rmc.min.js";
+  document.getElementsByTagName("head")[0].appendChild(r);
 })();
 
 rmc('cookie-name', 'class-to-remove');
