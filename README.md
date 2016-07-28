@@ -17,15 +17,9 @@ $ grunt
 Copy and paste:
 
 ```html
+<script type="text/javascript" src="//yourserver/path/rmc.min.js"></script>
 <script type="text/javascript">
-(function() {
-  var r = document.createElement("script");
-  r.type = "text/javascript"; r.async = true;
-  r.src = "//yourserver/path/rmc.min.js";
-  document.getElementsByTagName("head")[0].appendChild(r);
-})();
-
-rmc('cookie-name', 'class-to-remove');
+(function() { rmc('cookie-name', 'class-to-remove'); })();
 </script>
 ```
 
